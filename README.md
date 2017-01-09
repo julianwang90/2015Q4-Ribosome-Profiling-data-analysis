@@ -22,5 +22,8 @@ Removal of contaminating rRNA and tRNA sequencing reads was performed using bowt
 Sequence alignment to the reference genome was performed using tophat (v2.1.0), with both the reference gene annotation (GTF) file and the bowtie2 indicies for the genome being provided by the illumina iGenome *homo sapiens* hg38 UCSC dataset.
 
 ## Analysis
-#### Translatome analysis with babel
+#### Translatome analysis with Babel
+Analysis performed using Babel (https://cran.r-project.org/web/packages/babel/index.html)
+
 #### Transcriptome analysis with DESeq2
+Analysis performed using DESeq2 (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
